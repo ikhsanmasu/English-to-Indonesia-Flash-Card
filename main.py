@@ -14,19 +14,19 @@ if getattr(sys, 'frozen', False):
 else:
     application_path = os.path.dirname(os.path.abspath(__file__))
 
-card_back_img_dir = application_path + "/images/card_back.png"
-card_front_img_dir = application_path + "/images/card_front.png"
-right_button_img_dir = application_path + "/images/right.png"
-wrong_button_img_dir = application_path + "/images/wrong.png"
-words_dir = application_path + "/data/english_indonesia_words.csv"
-word_to_learn_dir = application_path + "/data/word_to_learn.csv"
+# card_back_img_dir = application_path + "/images/card_back.png"
+# card_front_img_dir = application_path + "/images/card_front.png"
+# right_button_img_dir = application_path + "/images/right.png"
+# wrong_button_img_dir = application_path + "/images/wrong.png"
+# words_dir = application_path + "/data/english_indonesia_words.csv"
+# word_to_learn_dir = application_path + "/data/word_to_learn.csv"
 
-# card_back_img_dir = "images/card_back.png"
-# card_front_img_dir = "images/card_front.png"
-# right_button_img_dir = "images/right.png"
-# wrong_button_img_dir = "images/wrong.png"
-# words_dir = "data/english_indonesia_words.csv"
-# word_to_learn_dir = "data/word_to_learn.csv"
+card_back_img_dir = "images/card_back.png"
+card_front_img_dir = "images/card_front.png"
+right_button_img_dir = "images/right.png"
+wrong_button_img_dir = "images/wrong.png"
+words_dir = "data/english_indonesia_words.csv"
+word_to_learn_dir = "data/word_to_learn.csv"
 
 BACKGROUND_COLOR = "#B1DDC6"
 
